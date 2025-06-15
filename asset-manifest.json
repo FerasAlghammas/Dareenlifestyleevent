@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dareenlifestyleevent/static/css/main.90df074f.css",
+    "main.js": "/Dareenlifestyleevent/static/js/main.0429ddc3.js",
+    "static/media/dareenlifestylelogo1.png": "/Dareenlifestyleevent/static/media/dareenlifestylelogo1.0a7c15c5e71962893427.png",
+    "index.html": "/Dareenlifestyleevent/index.html",
+    "main.90df074f.css.map": "/Dareenlifestyleevent/static/css/main.90df074f.css.map",
+    "main.0429ddc3.js.map": "/Dareenlifestyleevent/static/js/main.0429ddc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90df074f.css",
+    "static/js/main.0429ddc3.js"
+  ]
+}
