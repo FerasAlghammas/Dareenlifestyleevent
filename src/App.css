@@ -1,38 +1,98 @@
-.App {
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #fff8f5;
+  color: #4b3b3b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0d7d1;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #4b3b3b;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.gallery img,
+.gallery video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  padding: 120px 40px;
+  text-align: center;
+  background-color: #fff;
+  color: #4b3b3b;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #555;
+}
+
+.hero-button {
+  margin-top: 30px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #4b3b3b;
+}
+
+.section {
+  padding: 60px 40px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+  background-color: #f5e7de;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
 }

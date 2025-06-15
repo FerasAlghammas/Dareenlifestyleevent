@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import Contact from './Contact';
+import AboutUs from './AboutUs';
 import './App.css';
+import logo from './assets/dareenlifestylelogo1.png';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <Router>
+      <header className="header">
+        <Link to="/">
+          <img src={logo} alt="Dareen Lifestyle Logo" className="logo" />
+        </Link>
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/AboutUs">About Us</Link>
+          <Link to="/Contact">Contact</Link>
+        </nav>
       </header>
-    </div>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+
+      <footer className="footer">
+        &copy; 2025 DAREEN Lifestyle. All rights reserved.
+      </footer>
+    </Router>
   );
 }
 
 export default App;
+
