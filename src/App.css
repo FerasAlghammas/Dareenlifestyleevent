@@ -96,3 +96,11 @@ nav a:hover {
   padding: 40px 20px;
   font-size: 14px;
 }
+
+.contact-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

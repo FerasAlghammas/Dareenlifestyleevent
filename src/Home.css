@@ -26,7 +26,7 @@ html {
   /* Hero section */
   .hero {
     height: 100vh;
-    background-image: linear-gradient(to bottom right, rgba(255, 248, 245, 0.6), rgba(255, 255, 255, 0.85)), url('./assets/dareenlifestylelogo1.png');
+    background-image: linear-gradient(to bottom right, rgba(255, 248, 245, 0.6), rgba(255, 255, 255, 0.85)), url('../public/assets/dareenlifestylelogo1.png');
     background-size: cover;
     background-position: center;
     position: relative;
