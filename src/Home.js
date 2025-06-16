@@ -80,6 +80,7 @@ function GallerySection({ id, title, images = [], videos = [] }) {
           />
         ))}
       </div>
+      <img src={`${process.env.PUBLIC_URL}/images/FoundingDay1.jpg`} alt="Dareen Lifestyle Logo" className="logo" />
     </section>
   );
 }
