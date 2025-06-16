@@ -42,7 +42,7 @@ function Home() {
         id="corporate"
         title="National Day Events"
         images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg']}
-        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4', 'NationalDayV7.mp4', 'NationalDayV8.mp4']}
+        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4']}
       />
 
       <GallerySection
