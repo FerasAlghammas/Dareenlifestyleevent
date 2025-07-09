@@ -31,7 +31,6 @@ function Contact() {
       <p>We’d love to hear from you. Reach out for collaborations or inquiries.</p>
       <form onSubmit={handleSubmit} style={{ maxWidth: '500px', margin: '0 auto' }}>
         <input name="name" type="text" placeholder="Your Name" style={contactinput} required /><br />
-        <input name="email" type="email" placeholder="Your Email" style={contactinput} required /><br />
         <textarea name="message" placeholder="Your Message" rows="5" style={contactinput} required /><br />
         <button type="submit" className="hero-button">Send Message</button>
       </form>
