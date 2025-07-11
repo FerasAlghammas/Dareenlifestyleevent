@@ -32,8 +32,7 @@ function Home() {
         title="Birthday Events"
         images={[
           'birthday1.jpg', 'birthday2.jpg', 'birthday3.jpg', 'birthday4.jpg',
-          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg', 'birthday8.jpg',
-          'birthday9.jpg', 'birthday10.jpg'
+          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg'
         ]}
         videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4', 'birthdayV8.mp4', 'birthdayV9.mp4']}
       />
