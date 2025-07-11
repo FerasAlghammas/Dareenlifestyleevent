@@ -74,7 +74,7 @@ function GallerySection({ id, title, images = [], videos = [] }) {
         {images.map((img, index) => (
           <img
             key={index}
-            src={`${process.env.PUBLIC_URL}/images/${img}`}
+            src={`https://FerasAlghammas.github.io/Dareenlifestyleevent/images/${img}`}
             alt={`${title} ${index + 1}`}
             loading="lazy"
           />
