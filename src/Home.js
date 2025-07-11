@@ -66,7 +66,7 @@ function GallerySection({ id, title, images = [], videos = [] }) {
       <div className="horizontal-scroll">
         {videos.map((vid, index) => (
           <video key={index} controls preload="metadata">
-            {/* <source src={`${process.env.PUBLIC_URL}/videos/${vid}`} type="video/mp4" /> */}
+            <source src={`${process.env.PUBLIC_URL}/videos/${vid}`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         ))}
@@ -74,7 +74,7 @@ function GallerySection({ id, title, images = [], videos = [] }) {
         {images.map((img, index) => (
           <img
             key={index}
-            src={`${process.env.PUBLIC_URL}/${img}`}
+            src={`${process.env.PUBLIC_URL}/images/${img}`}
             alt={`${title} ${index + 1}`}
             loading="lazy"
           />
