@@ -32,7 +32,7 @@ function Home() {
         title="Birthday Events"
         images={[
           'birthday1.jpg', 'birthday2.jpg', 'birthday3.jpg', 'birthday4.jpg',
-          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg' , 'birthday8.jpg', 'birthday9.jpg' , 'birthday10.jpg'
+          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg' , 'birthday8.jpg', 'birthday9.jpg' , 'birthday10.jpg', 'birthday11.jpg', 'birthday12.jpg', 'birthday13.jpg', 'birthday14.jpg', 'birthday15.jpg', 'birthday16.jpg', 'birthday17.jpg', 'birthday18.jpg', 'birthday19.jpg', 'birthday20.jpg', 'birthday21.jpg', 'birthday22.jpg', 'birthday23.jpg', 'birthday24.jpg', 'birthday25.jpg'
         ]}
         videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4']}
       />
