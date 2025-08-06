@@ -23,8 +23,8 @@ function Home() {
       <GallerySection
         id="graduation"
         title="Graduation Events"
-        images={['graduation1.jpg', 'graduation6.jpg']}
-        videos={['graduationV1.mp4', 'graduationV2.mp4', 'graduationV3.mp4', 'graduationV6.mp4', 'graduationV7.mp4']}
+        images={['graduation1.jpg', 'graduation2.jpg', 'graduation3.jpg', 'graduation4.jpg', 'graduation5.jpg', 'graduation6.jpg', 'graduation7.jpg', 'graduation8.jpg']}
+        videos={['graduationV1.mp4', 'graduationV2.mp4', 'graduationV3.mp4', 'graduationV6.mp4', 'graduationV7.mp4', 'graduationV8.mp4', 'graduationV9.mp4']}
       />
 
       <GallerySection
@@ -34,7 +34,7 @@ function Home() {
           'birthday1.jpg', 'birthday2.jpg', 'birthday3.jpg', 'birthday4.jpg',
           'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg' , 'birthday8.jpg', 'birthday9.jpg' , 'birthday10.jpg', 'birthday11.jpg', 'birthday12.jpg', 'birthday13.jpg', 'birthday14.jpg', 'birthday15.jpg', 'birthday16.jpg', 'birthday17.jpg', 'birthday18.jpg', 'birthday19.jpg', 'birthday20.jpg', 'birthday21.jpg', 'birthday22.jpg', 'birthday23.jpg', 'birthday24.jpg', 'birthday25.jpg'
         ]}
-        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4']}
+        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4', 'birthdayV8.mp4', 'birthdayV9.mp4', 'birthdayV10.mp4', 'birthdayV11.mp4', 'birthdayV12.mp4', 'birthdayV13.mp4', 'birthdayV14.mp4', 'birthdayV15.mp4', 'birthdayV16.mp4']}
       />
 
       <GallerySection
