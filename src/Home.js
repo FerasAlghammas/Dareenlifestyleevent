@@ -23,8 +23,8 @@ function Home() {
       <GallerySection
         id="graduation"
         title="Graduation Events"
-        images={['graduation1.jpg', 'graduation2.jpg', 'graduation3.jpg', 'graduation4.jpg', 'graduation5.jpg', 'graduation6.jpg', 'graduation7.jpg', 'graduation8.jpg']}
-        videos={['graduationV1.mp4', 'graduationV2.mp4', 'graduationV3.mp4', 'graduationV6.mp4', 'graduationV7.mp4', 'graduationV8.mp4', 'graduationV9.mp4']}
+        images={['graduation1.jpg', 'graduation6.jpg']}
+        videos={['graduationV1.mp4', 'graduationV2.mp4', 'graduationV3.mp4', 'graduationV6.mp4', 'graduationV7.mp4']}
       />
 
       <GallerySection
@@ -32,16 +32,17 @@ function Home() {
         title="Birthday Events"
         images={[
           'birthday1.jpg', 'birthday2.jpg', 'birthday3.jpg', 'birthday4.jpg',
-          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg' , 'birthday8.jpg', 'birthday9.jpg' , 'birthday10.jpg', 'birthday11.jpg', 'birthday12.jpg', 'birthday13.jpg', 'birthday14.jpg', 'birthday15.jpg', 'birthday16.jpg', 'birthday17.jpg', 'birthday18.jpg', 'birthday19.jpg', 'birthday20.jpg', 'birthday21.jpg', 'birthday22.jpg', 'birthday23.jpg', 'birthday24.jpg', 'birthday25.jpg'
+          'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg', 'birthday8.jpg',
+          'birthday9.jpg', 'birthday10.jpg'
         ]}
-        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4', 'birthdayV8.mp4', 'birthdayV9.mp4', 'birthdayV10.mp4', 'birthdayV11.mp4', 'birthdayV12.mp4', 'birthdayV13.mp4', 'birthdayV14.mp4', 'birthdayV15.mp4', 'birthdayV16.mp4']}
+        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4']}
       />
 
       <GallerySection
         id="corporate"
         title="National Day Events"
-        images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg']}
-        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4']}
+        images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg', 'NationalDay14.jpg', 'NationalDay15.jpg']}
+        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4', 'NationalDayV7.mp4']}
       />
 
       <GallerySection
@@ -53,6 +54,15 @@ function Home() {
           'FoundingDay10.jpg', 'FoundingDay11.jpg', 'FoundingDay12.jpg'
         ]}
         videos={['FoundingDayV4.mp4', 'FoundingDayV2.mp4', 'FoundingDayV3.mp4', 'FoundingDayV1.mp4', 'FoundingDayV5.mp4', 'FoundingDayV6.mp4', 'FoundingDayV7.mp4', 'FoundingDayV8.mp4', 'FoundingDayV9.mp4']}
+      />
+
+
+      <GallerySection
+        id="TableSettingDesigns"
+        title="Table Setting Designs"
+        images={[
+          'Breakfast1.jpg', 'Breakfast2.jpg', 'TableSettingDesigns1.jpg']}
+        videos={['BreakfastV1.mp4', 'BreakfastV2.mp4', 'BreakfastV3.mp4', 'TableSettingDesignsV1.mp4', 'TableSettingDesignsV2.mp4', 'TableSettingDesignsV3.mp4']}
       />
     </div>
   );
@@ -66,7 +76,7 @@ function GallerySection({ id, title, images = [], videos = [] }) {
         {videos.map((vid, index) => (
           <video key={index} controls preload="metadata">
             <source src={`${process.env.PUBLIC_URL}/videos/${vid}`} type="video/mp4" />
-            
+            Your browser does not support the video tag.
           </video>
         ))}
 
@@ -79,7 +89,6 @@ function GallerySection({ id, title, images = [], videos = [] }) {
           />
         ))}
       </div>
-      
     </section>
   );
 }
