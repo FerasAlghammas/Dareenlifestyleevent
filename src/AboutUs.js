@@ -32,6 +32,7 @@ function AboutUs() {
           { title: '🛋️ Lounge & Seating Arrangements', desc: 'Comfortable and stylish setups to match the theme of your event.' },
           { title: '📺 Screens & Visuals', desc: 'LED screens for slideshows, videos, and live feeds.' },
           { title: '💡 Lighting & Ambiance', desc: 'Mood-setting lighting setups that elevate your space.' },
+          { title: '⛺ Camp & Trip', desc: 'Designing and setting up fully equipped camps for celebrations and outdoor events, including tents, seating, lighting, hospitality, and entertainment for a unique open-air experience.' },
         ].map((service, index) => (
           <div key={index} className="service-card">
             <h2>{service.title}</h2>
@@ -52,7 +53,8 @@ function AboutUs() {
             'eshraqclinics.jpeg',
             'msdlogo.png',
             'Allianzlogo.png',
-            'Ajialunalogo.png'
+            'Ajialunalogo.png',
+            'ArabianCement.png'
           ].map((filename, index) => (
             <div key={index} className="client-slide">
               <img src={`${process.env.PUBLIC_URL}/images/${filename}`} alt={filename.split('.')[0]} />
