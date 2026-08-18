@@ -42,7 +42,7 @@ function Home() {
         id="corporate"
         title="National Day Events"
         images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg', 'NationalDay14.jpg', 'NationalDay15.jpg']}
-        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4', 'NationalDayV7.mp4']}
+        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4', 'NationalDayV7.mp4', 'NationalDayV8.mp4']}
       />
 
       <GallerySection
@@ -71,7 +71,7 @@ function Home() {
         title="Camp&TripEvent"
         images={[
           'Camp&TripEvent1.jpg', 'Camp&TripEvent2.jpg', 'Camp&TripEvent4.jpg', 'Camp&TripEvent5.jpg', 'Camp&TripEvent6.jpg', 'Camp&TripEvent7.jpg', 'Camp&TripEvent8.jpg', 'Camp&TripEvent9.jpg']}
-        videos={['Camp&TripEventVideo1.mp4', 'Camp&TripEventVideo2.mp4', 'Camp&TripEventVideo3.mp4', 'Camp&TripEventVideo4.mp4', 'Camp&TripEventVideo5.mp4']}
+        videos={['Camp&TripEventVideo1.mp4', 'Camp&TripEventVideo2.mp4', 'Camp&TripEventVideo3.mp4', 'Camp&TripEventVideo4.mp4', 'Camp&TripEventVideo5.mp4', 'Camp&TripEventVideo6.mp4', 'Camp&TripEventVideo7.mp4', 'Camp&TripEventVideo8.mp4']}
       />
     </div>
   );
