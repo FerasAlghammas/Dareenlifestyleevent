@@ -35,14 +35,14 @@ function Home() {
           'birthday5.jpg', 'birthday6.jpg', 'birthday7.jpg', 'birthday8.jpg',
           'birthday9.jpg', 'birthday10.jpg'
         ]}
-        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4', 'birthdayV8.mp4', 'birthdayV9.mp4']}
+        videos={['birthdayV1.mp4', 'birthdayV2.mp4', 'birthdayV3.mp4', 'birthdayV4.mp4', 'birthdayV5.mp4', 'birthdayV6.mp4', 'birthdayV7.mp4', 'birthdayV17.mp4']}
       />
 
       <GallerySection
         id="corporate"
         title="National Day Events"
-        images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg']}
-        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4']}
+        images={['NationalDay9.jpg', 'NationalDay11.jpg', 'NationalDay13.jpg', 'NationalDay14.jpg', 'NationalDay15.jpg']}
+        videos={['NationalDayV1.mp4', 'NationalDayV2.mp4', 'NationalDayV3.mp4', 'NationalDayV4.mp4', 'NationalDayV5.mp4', 'NationalDayV6.mp4', 'NationalDayV7.mp4', 'NationalDayV8.mp4']}
       />
 
       <GallerySection
@@ -54,6 +54,24 @@ function Home() {
           'FoundingDay10.jpg', 'FoundingDay11.jpg', 'FoundingDay12.jpg'
         ]}
         videos={['FoundingDayV4.mp4', 'FoundingDayV2.mp4', 'FoundingDayV3.mp4', 'FoundingDayV1.mp4', 'FoundingDayV5.mp4', 'FoundingDayV6.mp4', 'FoundingDayV7.mp4', 'FoundingDayV8.mp4', 'FoundingDayV9.mp4']}
+      />
+
+
+      <GallerySection
+        id="TableSettingDesigns"
+        title="Table Setting Designs"
+        images={[
+          'Breakfast1.jpg', 'Breakfast2.jpg', 'TableSettingDesigns1.jpg']}
+        videos={['BreakfastV1.mp4', 'BreakfastV2.mp4', 'BreakfastV3.mp4', 'TableSettingDesignsV1.mp4', 'TableSettingDesignsV2.mp4', 'TableSettingDesignsV3.mp4']}
+      />
+
+
+      <GallerySection
+        id="Camp&TripEvents"
+        title="Camp&TripEvent"
+        images={[
+          'Camp&TripEvent1.jpg', 'Camp&TripEvent2.jpg', 'Camp&TripEvent4.jpg', 'Camp&TripEvent5.jpg', 'Camp&TripEvent6.jpg', 'Camp&TripEvent7.jpg', 'Camp&TripEvent8.jpg', 'Camp&TripEvent9.jpg']}
+        videos={['Camp&TripEventVideo1.mp4', 'Camp&TripEventVideo2.mp4', 'Camp&TripEventVideo3.mp4', 'Camp&TripEventVideo4.mp4', 'Camp&TripEventVideo5.mp4', 'Camp&TripEventVideo6.mp4', 'Camp&TripEventVideo7.mp4', 'Camp&TripEventVideo8.mp4']}
       />
     </div>
   );
@@ -80,7 +98,6 @@ function GallerySection({ id, title, images = [], videos = [] }) {
           />
         ))}
       </div>
-      <img src={`${process.env.PUBLIC_URL}/images/FoundingDay1.jpg`} alt="Dareen Lifestyle Logo" className="logo" />
     </section>
   );
 }
